@@ -44,9 +44,6 @@ contract ERC20 is IERC20{
         
         _totalsupply = 21000000 * 10**decimals;
         _balances[owner] = _totalsupply;
-        
-        // emit TokenDetails(name, symbol,decimals, owner, contractAddress);
-        // emit Transfer(address(this),owner,_totalsupply);
     }
     
     modifier isTimeLock(){
