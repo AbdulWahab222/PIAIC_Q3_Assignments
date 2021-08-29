@@ -152,8 +152,8 @@ contract ERC20 is IERC20{
 contract tokenSale is ERC20{
     
     // address payable owner; 
-    uint public rate;           // rate of token = Ether
-    uint public fundRaise;       //sum of ethers collecting during token sale
+    uint public rate;          
+    uint public fundRaise;      
     uint private maxSupply;
     
     constructor(){
